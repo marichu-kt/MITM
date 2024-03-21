@@ -1,8 +1,5 @@
-===========================================================================
 
-🔒 Wireshark - Herramienta de Intercepción de Tráfico en Tiempo Real 🔒
-
-===========================================================================
+🔒 **Wireshark - Herramienta de Intercepción de Tráfico en Tiempo Real** 🔒
 
 ![MITM](/Images/icon.png)
 
@@ -52,6 +49,5 @@ Licencia:
 Wireshark se distribuye bajo la Licencia GNU General Public License. Consulta 
 el archivo COPYING para más detalles.
 
-===============================================================================
 ¡Disfruta del análisis de tráfico con Wireshark! 😉🔍🛠️
-===============================================================================
+
