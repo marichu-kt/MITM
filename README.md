@@ -1,38 +1,57 @@
-**🔒 MITM - Intercepción de Tráfico en Tiempo Real 🔒**
+===============================================================================
+
+🔒 Wireshark - Herramienta de Intercepción de Tráfico en Tiempo Real 🔒
+
+===============================================================================
 
 ![MITM](/Images/icon.png)
 
----
+Descripción:
+------------
+Wireshark es una herramienta de código abierto diseñada para realizar análisis
+de tráfico en tiempo real. Esta herramienta permite a los usuarios capturar y 
+examinar el tráfico de red en detalle, lo que puede ser útil para diagnosticar 
+problemas de red, detectar intrusiones y entender el funcionamiento de los 
+protocolos de red.
 
-## Descripción
-MITM es una herramienta de código abierto diseñada para realizar ataques de intercepción de tráfico en tiempo real. Esta técnica, también conocida como "Man-in-the-Middle" (Hombre en el Medio), permite a un atacante interceptar y manipular la comunicación entre dos partes sin su conocimiento.
-
-## Características
-- 🛡️ Intercepta el tráfico de red en tiempo real.
-- 🔄 Realiza ataques de tipo "Man-in-the-Middle".
-- 🔑 Puede capturar y decodificar contraseñas y datos confidenciales.
-- 📶 Soporta diferentes protocolos de red como HTTP, HTTPS, FTP, etc.
+Características:
+----------------
+- 🛡️ Captura y analiza el tráfico de red en tiempo real.
+- 🔄 Permite el análisis detallado de paquetes de datos.
+- 🔑 Puede mostrar contraseñas y datos confidenciales si no se utiliza en un entorno seguro.
+- 📶 Soporta una amplia gama de protocolos de red como HTTP, HTTPS, FTP, etc.
 - 🖥️ Funciona en múltiples plataformas: Windows, macOS y Linux.
-- 📊 Proporciona estadísticas detalladas sobre el tráfico interceptado.
+- 📊 Proporciona estadísticas detalladas sobre el tráfico de red.
 
-## Instalación
-1. Clona el repositorio: `git clone https://github.com/tu_usuario/MITM.git`
-2. Navega hasta el directorio: `cd MITM`
-3. Instala las dependencias: `pip install -r requirements.txt`
-4. Ejecuta el script principal: `python mitm.py`
+Instalación:
+-------------
+1. Descarga Wireshark desde wireshark.org.  o con: `sudo apt install wireshark`
+2. Sigue las instrucciones de instalación para tu sistema operativo.
+3. Ejecuta Wireshark desde el menú de aplicaciones.
 
-## Uso
-- Ejecuta el script principal y sigue las instrucciones en pantalla para configurar el ataque MITM.
-- Asegúrate de que tu máquina actúe como router para dirigir correctamente el tráfico.
+Uso:
+-----
+- Abre Wireshark y selecciona la interfaz de red que deseas monitorear.
+- Observa el tráfico en tiempo real y utiliza las herramientas de filtrado y 
+     análisis para examinar paquetes específicos.
 
-## Contribución
-¡Las contribuciones son bienvenidas! Si deseas mejorar MITM, por favor, abre un problema o envía una solicitud de extracción.
+Contribución:
+--------------
+¡Las contribuciones a Wireshark son bienvenidas! Si deseas mejorar Wireshark, 
+por favor, visita su repositorio en GitHub para obtener más información sobre 
+cómo contribuir al proyecto.
 
-## Créditos
-MITM fue creado con ❤️ por [Tu Nombre](https://github.com/tu_usuario).
+Créditos:
+----------
+Wireshark es una herramienta de código abierto mantenida por una comunidad de 
+desarrolladores. Agradecemos a todos los contribuyentes que han hecho posible 
+este proyecto.
 
-## Licencia
-MITM se distribuye bajo la [Licencia MIT](https://opensource.org/licenses/MIT). Consulta el archivo `LICENSE` para más detalles.
+Licencia:
+----------
+Wireshark se distribuye bajo la Licencia GNU General Public License. Consulta 
+el archivo COPYING para más detalles.
 
----
-¡Diviértete interceptando tráfico! 😉🔍🛠️
+===============================================================================
+¡Disfruta del análisis de tráfico con Wireshark! 😉🔍🛠️
+===============================================================================
