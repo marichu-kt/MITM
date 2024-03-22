@@ -32,22 +32,33 @@ Uso:
 - Observa el tráfico en tiempo real y utiliza las herramientas de filtrado y 
      análisis para examinar paquetes específicos.
 
-Contribución:
---------------
-¡Las contribuciones a Wireshark son bienvenidas! Si deseas mejorar Wireshark, 
-por favor, visita su repositorio en GitHub para obtener más información sobre 
-cómo contribuir al proyecto.
-
-Créditos:
-----------
-Wireshark es una herramienta de código abierto mantenida por una comunidad de 
-desarrolladores. Agradecemos a todos los contribuyentes que han hecho posible 
-este proyecto.
-
-Licencia:
-----------
-Wireshark se distribuye bajo la Licencia GNU General Public License. Consulta 
-el archivo COPYING para más detalles.
 
 ¡Disfruta del análisis de tráfico con Wireshark! 😉🔍🛠️
+
+#
+#
+
+# Instrucciones para la simulación de registro de usuario en Vulnweb
+Este repositorio contiene instrucciones para simular el registro de un usuario en Vulnweb utilizando Wireshark para analizar el tráfico de red.
+
+## Requisitos previos
+- Wireshark instalado en el sistema.
+- Acceso a internet para acceder a la página web de Vulnweb.
+
+## Abra Wireshark en su sistema.
+Seleccione la interfaz de red adecuada (en este caso, "eth0" para Ethernet).
+
+## Acceda a la página web de Vulnweb.
+Diríjase al apartado de "Sign Up" para simular el registro de un nombre de usuario y contraseña.
+Complete el proceso de registro como lo haría normalmente.
+
+## Una vez completado el registro en Vulnweb, vuelva a Wireshark.
+Detenga el análisis de tráfico haciendo clic en el botón cuadrado arriba en la barra de herramientas.
+En la barra de búsqueda, filtre los registros HTTP.
+Haga clic en el registro correspondiente al registro en Vulnweb.
+Seleccione "HTML from URL encoded" para ver los datos de usuario y contraseña capturados.
+Se mostrarán el nombre de usuario ("uname") y la contraseña ("pass") capturados en el tráfico de red.
+
+![Wireshark](/Images/img-1.png)
+
 
